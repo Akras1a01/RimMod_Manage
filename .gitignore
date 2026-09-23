@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+out/
+build/
+release/
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.snap
+*.deb
+
+# Electron packaging cache
+.electron/
+.electron-builder-cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage / caches
+coverage/
+.cache/
+.eslintcache
+
+# Misc
+*.local
+
+# Local agent workspace (memory logs, local-only data)
+.workbuddy/
